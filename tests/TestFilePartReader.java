@@ -12,7 +12,7 @@ public class TestFilePartReader {
 
     @Test
     @BeforeEach
-    @DisplayName("Initializing a new FlePartReader object before every testcase.")
+    @DisplayName("Initializing a new FilePartReader object before every testcase.")
     public void initializeFilePartReaderObject() {
         reader = new FilePartReader();
     }
